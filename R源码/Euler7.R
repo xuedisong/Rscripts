@@ -1,0 +1,14 @@
+##前六个质数是2,3,5,7,11和13，其中第6个是13。第10001个质数是多少？
+##第n个数
+##待优化
+##给一个数找出1：它之间的所有素数.R(cankao)
+mainf<-function(n){
+  a<-3
+  repeat{
+    v<-f(a)
+    l<-length(v)
+    if(l==n)break
+    a<-a+1
+  }
+  v[length(v)]
+}

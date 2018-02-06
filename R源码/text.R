@@ -1,0 +1,10 @@
+rm(list = ls())
+x<-c(0.5,0.5,0.5,0.25,0.25)
+y<-c(1,1,1,1,1)
+M=matrix(data=1:25,nrow=5,ncol=5,byrow = T)
+sum(x)
+sum(-log2(x)*x)
+M=array(1:75,dim = c(5,5,3))
+x1=c(1:100)
+y1=x1*x1
+plot(y1~x1,main="李鑫",xlab="x",ylab = "重量",col ='blue')
